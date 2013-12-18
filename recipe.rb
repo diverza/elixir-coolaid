@@ -6,14 +6,14 @@
 ##### attributes / variables
 
 #elixir_release = 'bb4874' # or 'v0.10.2-dev'
-elixir_release = 'v0.10.2-dev' # or 'v0.10.2-dev'
+elixir_release = 'v0.12.0' # or 'v0.10.2-dev'
 rebar_release = '2.0.0'
 #dynamo_release = '82aa4c' # or 'elixir-0.10.0'
-dynamo_release = 'elixir-0.10.1' # or 'elixir-0.10.0'
-elixir_dir = '/opt/depot/elixir'
-dynamo_dir = '/opt/depot/dynamo'
+dynamo_release = 'elixir-0.11.2' # or 'elixir-0.10.0'
+elixir_dir = '/opt/elixir'
+dynamo_dir = '/opt/dynamo'
 
-erl_ver = '5.10.2' # BEAM ver (just for verification purposes)
+erl_ver = '5.10.4' # BEAM ver (just for verification purposes)
 # Would be nice if I could just look for 16B etc
 # How about  ERL_CRASH_DUMP_SECONDS=0 erl -shutdown_time 1  -run 'exit(because)'
 # Also could use iex --version which gives both
